@@ -1,8 +1,8 @@
-import 'package:appka_pogoda/model/weather.dart';
+import 'package:appka_pogoda/src/model/weather.dart';
 import 'package:rxdart/rxdart.dart';
 
-class MainScreenBloc {
-  MainScreenBloc();
+class HomePageBloc {
+  HomePageBloc();
 
   BehaviorSubject<WeatherData> weatherDataStream =
       BehaviorSubject<WeatherData>();

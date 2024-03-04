@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import 'package:appka_pogoda/model/weather.dart';
+import 'package:appka_pogoda/src/model/weather.dart';
 import 'package:http/http.dart' as http;
 
 class WeatherService {

@@ -1,4 +1,4 @@
-import 'package:appka_pogoda/main_screen.dart';
+import 'package:appka_pogoda/src/home_page_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,20 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MainScreen(),
-
+      home: const HomePageView(),
     );
-
-
-    }
   }
-
-
-
+}
